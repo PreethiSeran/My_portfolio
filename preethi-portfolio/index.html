@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preethi S — AI & Data Science Engineer / UI-UX Designer</title>
+  <meta name="description" content="Portfolio of Preethi S — AI & Data Science graduate specializing in machine learning, secure systems, and UI/UX design. View projects, skills, and get in touch." />
+  <meta name="keywords" content="Preethi S, AI Engineer, Data Science, UI UX Designer, Machine Learning, Portfolio" />
+  <meta name="author" content="Preethi S" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Preethi S — AI & Data Science Engineer / UI-UX Designer" />
+  <meta property="og:description" content="Machine learning, secure systems, and human-centered design — explore Preethi's project work." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#hero" class="navbar__logo">PS<span class="dot">.</span></a>
+
+      <nav class="navbar__links" id="navLinks" aria-label="Primary">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <span class="status-pill" title="Availability status">
+          <span class="status-dot"></span>
+          Open to work
+        </span>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <p class="eyebrow reveal">// verified profile</p>
+        <h1 class="hero__title reveal">
+          Preethi S
+        </h1>
+        <p class="hero__role reveal">AI &amp; Data Science Engineer <span class="slash">/</span> UI-UX Designer</p>
+        <p class="hero__tagline reveal">
+          I build systems that verify what's real — from AI models that flag anomalies
+          to interfaces that earn a user's trust at first glance.
+        </p>
+
+        <div class="hero__cta reveal">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="assets/Preethi_S_Resume.pdf" class="btn btn--ghost" download>
+            Download Résumé
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 20h16"/></svg>
+          </a>
+          <a href="#contact" class="btn btn--text">Get in touch →</a>
+        </div>
+
+        <div class="hero__stats reveal">
+          <div class="stat">
+            <span class="stat__value" data-count="8.3">0</span>
+            <span class="stat__label">CGPA / 10</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="6">0</span>
+            <span class="stat__label">Shipped Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="7">0</span>
+            <span class="stat__label">Certifications</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to content">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="section__inner">
+        <p class="section__eyebrow">01 · About</p>
+        <h2 class="section__title">Two disciplines, one instinct.</h2>
+
+        <div class="about__content">
+          <p class="about__lead">
+            I graduated in 2026 with a B.Tech in Artificial Intelligence &amp; Data Science
+            from C.K. College of Engineering and Technology, Anna University — but the real
+            throughline in my work isn't the degree, it's a habit of mind: I notice when
+            something doesn't add up, and I care about how that gets communicated.
+          </p>
+          <p class="about__body">
+            On the engineering side, that's meant building a Zero Trust access-control system
+            with real-time anomaly detection, and training classifiers that catch fake accounts
+            and predict customer churn before either becomes a problem. On the design side,
+            it's meant sitting with Figma until a flow feels obvious instead of clever —
+            case in point, a full brand identity and ordering experience for a coffee &amp;
+            matcha label called Still Brew.
+          </p>
+          <p class="about__body">
+            I'm looking for a team that needs both halves of that — someone who can reason
+            about a model's confidence score and also design the screen that explains it to
+            a user who's never heard of an Isolation Forest.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section section--alt" id="skills">
+      <div class="section__inner">
+        <p class="section__eyebrow">02 · Skills</p>
+        <h2 class="section__title">The toolkit behind the work.</h2>
+
+        <div class="skills__grid">
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Languages</h3>
+            <div class="tag-cloud">
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Frameworks &amp; Libraries</h3>
+            <div class="tag-cloud">
+              <span class="tag">scikit-learn</span>
+              <span class="tag">React.js</span>
+              <span class="tag">Node.js / Express.js</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Tools</h3>
+            <div class="tag-cloud">
+              <span class="tag">Figma</span>
+              <span class="tag">Power BI / Tableau</span>
+              <span class="tag">PostgreSQL / Supabase</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Soft Skills</h3>
+            <div class="tag-cloud">
+              <span class="tag">Analytical Thinking</span>
+              <span class="tag">Problem-Solving</span>
+              <span class="tag">Collaboration</span>
+              <span class="tag">Adaptability</span>
+              <span class="tag">Communication</span>
+              <span class="tag">Attention to Detail</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="section__inner">
+        <p class="section__eyebrow">03 · Projects</p>
+        <h2 class="section__title">Six projects, two ways of thinking.</h2>
+
+        <div class="projects__grid">
+
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-card__head">
+              <span class="tag-mono">SECURITY</span>
+            </div>
+            <h3 class="project-card__title">Zero Trust Security Model</h3>
+            <p class="project-card__problem">
+              <strong>Problem:</strong> Static logins can't tell a legitimate user from a
+              stolen session. Access needed to be verified continuously, not once.
+            </p>
+            <ul class="project-card__list">
+              <li>Built MFA + device-trust verification so every request, not just login, is checked</li>
+              <li>Implemented Role-Based Access Control (RBAC) across admin, manager, and employee tiers</li>
+              <li>Trained an Isolation Forest anomaly detection engine for real-time session monitoring</li>
+            </ul>
+            <div class="project-card__tech">
+              <span>React.js</span><span>Node.js/Express.js</span><span>Python</span><span>scikit-learn</span><span>PostgreSQL</span><span>Supabase</span>
+            </div>
+            <div class="project-card__links">
+              <a href="https://github.com/PreethiSeran/Zero-Trust-Security-Model-for-Secure-User-Access-Control" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 007.86 10.94c.58.1.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.24 2.75.12 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal">
+            <div class="project-card__head">
+              <span class="tag-mono">DATA ANALYTICS</span>
+            </div>
+            <h3 class="project-card__title">Customer Churn Prediction &amp; Analysis Dashboard</h3>
+            <p class="project-card__problem">
+              <strong>Problem:</strong> Retention teams often find out a customer was at
+              risk after they've already left. Flagging risk early changes that.
+            </p>
+            <ul class="project-card__list">
+              <li>Ran exploratory data analysis and feature engineering to surface churn drivers</li>
+              <li>Trained and compared Logistic Regression and Random Forest classifiers</li>
+              <li>Shipped an interactive dashboard visualizing churn trends by contract type and tenure</li>
+            </ul>
+            <div class="project-card__tech">
+              <span>Python</span><span>Pandas</span><span>scikit-learn</span><span>Power BI / Tableau</span><span>SQL</span>
+            </div>
+            <div class="project-card__links">
+              <a href="https://github.com/PreethiSeran/customer-churn-prediction" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 007.86 10.94c.58.1.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.24 2.75.12 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal">
+            <div class="project-card__head">
+              <span class="tag-mono">MACHINE LEARNING</span>
+            </div>
+            <h3 class="project-card__title">Fake Social Media Account Detection</h3>
+            <p class="project-card__problem">
+              <strong>Problem:</strong> Bot and fake accounts inflate engagement and enable
+              scams — most are identifiable from behavior alone, without reading private content.
+            </p>
+            <ul class="project-card__list">
+              <li>Engineered behavioral features: follower/following ratio, posting cadence, bio patterns</li>
+              <li>Compared supervised (Logistic Regression, Random Forest) vs. unsupervised (Isolation Forest) detection</li>
+              <li>Built a live dashboard to score any account profile's fake-account probability</li>
+            </ul>
+            <div class="project-card__tech">
+              <span>Python</span><span>Pandas</span><span>scikit-learn</span><span>Streamlit</span>
+            </div>
+            <div class="project-card__links">
+              <a href="https://github.com/PreethiSeran/Fake-Social-Media-Account-Detection" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 007.86 10.94c.58.1.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.24 2.75.12 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card reveal">
+            <div class="project-card__head">
+              <span class="tag-mono">DESIGN</span>
+            </div>
+            <h3 class="project-card__title">Still Brew — Coffee &amp; Matcha Brand Website</h3>
+            <p class="project-card__problem">
+              <strong>Problem:</strong> The brand needed a website that felt as calm and
+              premium as the product itself, without slowing down the ordering flow.
+            </p>
+            <ul class="project-card__list">
+              <li>Defined visual identity — palette, typography, and imagery — around a premium, artisanal feel</li>
+              <li>Mapped user flows and wireframes to streamline the online ordering experience</li>
+              <li>Delivered responsive, high-fidelity prototypes with cohesive micro-interactions</li>
+            </ul>
+            <div class="project-card__tech">
+              <span>Figma</span><span>Prototyping</span><span>Design Systems</span>
+            </div>
+            <div class="project-card__links">
+              <a href="https://www.behance.net/gallery/251248863/STILL-BREW-Coffee-Matcha-Brand-Website-UIUX-Design?tracking_source=project_owner_other_projects" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 10.6c.7-.3 1.1-1 1.1-1.9 0-1.7-1.2-2.6-3.2-2.6H0v10.4h5.9c2.2 0 3.6-1 3.6-2.9 0-1.3-.6-2.2-1.7-3zm-5-2.8h2.6c1 0 1.6.4 1.6 1.2 0 .8-.6 1.3-1.6 1.3H2.8V7.8zm3 6.9H2.8v-2.9h3c1.1 0 1.8.5 1.8 1.4 0 1-.7 1.5-1.8 1.5zM24 12.2c0-2.9-1.8-5-4.7-5-2.9 0-4.9 2.1-4.9 5.1 0 3 2 5 5 5 1.9 0 3.5-.8 4.3-2.4l-2-1.1c-.4.8-1.2 1.3-2.2 1.3-1.3 0-2.2-.8-2.4-2.1h6.8c0-.3.1-.6.1-.8zm-6.9-1c.3-1.1 1.1-1.8 2.2-1.8s1.9.7 2 1.8h-4.2zM19.8 5h-6v1.5h6V5z"/></svg>
+                Behance
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card reveal">
+            <div class="project-card__head">
+              <span class="tag-mono">DESIGN</span>
+            </div>
+            <h3 class="project-card__title">Essence Luxe — Luxury Perfume E-Commerce Website</h3>
+            <p class="project-card__problem">
+              <strong>Problem:</strong> Luxury fragrance shoppers buy on feeling, not
+              specs — the site needed to sell an experience before it sold a product.
+            </p>
+            <ul class="project-card__list">
+              <li>Designed an elegant, editorial-style visual language fit for a premium fragrance brand</li>
+              <li>Structured product discovery and checkout flows to keep the experience frictionless</li>
+              <li>Built a cohesive design system spanning product pages, collections, and cart</li>
+            </ul>
+            <div class="project-card__tech">
+              <span>Figma</span><span>E-Commerce UX</span><span>Design Systems</span>
+            </div>
+            <div class="project-card__links">
+              <a href="https://www.behance.net/gallery/251152617/Essence-LuxeLuxuryPerfume-E-Commerce-Website-Design?tracking_source=project_owner_other_projects" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 10.6c.7-.3 1.1-1 1.1-1.9 0-1.7-1.2-2.6-3.2-2.6H0v10.4h5.9c2.2 0 3.6-1 3.6-2.9 0-1.3-.6-2.2-1.7-3zm-5-2.8h2.6c1 0 1.6.4 1.6 1.2 0 .8-.6 1.3-1.6 1.3H2.8V7.8zm3 6.9H2.8v-2.9h3c1.1 0 1.8.5 1.8 1.4 0 1-.7 1.5-1.8 1.5zM24 12.2c0-2.9-1.8-5-4.7-5-2.9 0-4.9 2.1-4.9 5.1 0 3 2 5 5 5 1.9 0 3.5-.8 4.3-2.4l-2-1.1c-.4.8-1.2 1.3-2.2 1.3-1.3 0-2.2-.8-2.4-2.1h6.8c0-.3.1-.6.1-.8zm-6.9-1c.3-1.1 1.1-1.8 2.2-1.8s1.9.7 2 1.8h-4.2zM19.8 5h-6v1.5h6V5z"/></svg>
+                Behance
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card reveal">
+            <div class="project-card__head">
+              <span class="tag-mono">DESIGN</span>
+            </div>
+            <h3 class="project-card__title">CookMind AI — Smart Cooking Assistant App</h3>
+            <p class="project-card__problem">
+              <strong>Problem:</strong> Home cooks needed an AI assistant that felt
+              helpful in the moment, not another cluttered recipe app to navigate.
+            </p>
+            <ul class="project-card__list">
+              <li>Designed a conversational, AI-assisted cooking flow from ingredient input to step-by-step guidance</li>
+              <li>Simplified navigation so key actions stay reachable with minimal taps</li>
+              <li>Prototyped a clean, friendly interface suited to hands-busy, screen-glance use in the kitchen</li>
+            </ul>
+            <div class="project-card__tech">
+              <span>Figma</span><span>AI Product Design</span><span>Mobile UX</span>
+            </div>
+            <div class="project-card__links">
+              <a href="https://www.behance.net/gallery/251077697/CookMindAISmart-Cooking-Assistant-App-UIUX-Case-Study?tracking_source=project_owner_other_projects" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 10.6c.7-.3 1.1-1 1.1-1.9 0-1.7-1.2-2.6-3.2-2.6H0v10.4h5.9c2.2 0 3.6-1 3.6-2.9 0-1.3-.6-2.2-1.7-3zm-5-2.8h2.6c1 0 1.6.4 1.6 1.2 0 .8-.6 1.3-1.6 1.3H2.8V7.8zm3 6.9H2.8v-2.9h3c1.1 0 1.8.5 1.8 1.4 0 1-.7 1.5-1.8 1.5zM24 12.2c0-2.9-1.8-5-4.7-5-2.9 0-4.9 2.1-4.9 5.1 0 3 2 5 5 5 1.9 0 3.5-.8 4.3-2.4l-2-1.1c-.4.8-1.2 1.3-2.2 1.3-1.3 0-2.2-.8-2.4-2.1h6.8c0-.3.1-.6.1-.8zm-6.9-1c.3-1.1 1.1-1.8 2.2-1.8s1.9.7 2 1.8h-4.2zM19.8 5h-6v1.5h6V5z"/></svg>
+                Behance
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section section--alt" id="experience">
+      <div class="section__inner">
+        <p class="section__eyebrow">04 · Experience</p>
+        <h2 class="section__title">Currently open to full-time roles.</h2>
+
+        <div class="timeline">
+          <div class="timeline__item reveal">
+            <span class="timeline__marker"></span>
+            <div class="timeline__content">
+              <h3>2022 — 2026</h3>
+              <p class="timeline__role">B.Tech, Artificial Intelligence &amp; Data Science</p>
+              <p class="timeline__desc">
+                Four years building the technical foundation behind every project above —
+                from core ML theory to the Zero Trust capstone project. Actively applying
+                to entry-level AI/Data roles and UI/UX design positions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p class="experience__note">
+          Note: as a 2026 graduate, my hands-on experience so far comes from academic
+          and independent projects (above) rather than a prior employer — I'm looking
+          for the role where that changes.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+      <div class="section__inner">
+        <p class="section__eyebrow">05 · Education</p>
+        <h2 class="section__title">Where the foundation was laid.</h2>
+
+        <div class="edu-grid">
+          <div class="edu-card reveal">
+            <span class="tag-mono">2022 – 2026</span>
+            <h3>B.Tech, Artificial Intelligence &amp; Data Science</h3>
+            <p>C.K. College of Engineering and Technology, Anna University</p>
+            <p class="edu-card__meta">CGPA: 8.3 / 10</p>
+          </div>
+          <div class="edu-card reveal">
+            <span class="tag-mono">2022</span>
+            <h3>HSC (12th)</h3>
+            <p>St. Anne's Girls Higher Secondary School</p>
+            <p class="edu-card__meta">77.17%</p>
+          </div>
+          <div class="edu-card reveal">
+            <span class="tag-mono">2020</span>
+            <h3>SSLC (10th)</h3>
+            <p>St. Anne's Girls Higher Secondary School</p>
+            <p class="edu-card__meta">88.8%</p>
+          </div>
+        </div>
+
+        <h3 class="cert-heading">Certifications</h3>
+        <div class="cert-grid">
+          <div class="cert-chip reveal">Google UX Design Professional Certificate <span>— Coursera</span></div>
+          <div class="cert-chip reveal">Foundations: Data, Data Everywhere <span>— Coursera</span></div>
+          <div class="cert-chip reveal">Getting Started with Python <span>— Coursera</span></div>
+          <div class="cert-chip reveal">Artificial Intelligence &amp; Machine Learning <span>— Infosys Springboard</span></div>
+          <div class="cert-chip reveal">Natural Language Processing <span>— Infosys Springboard</span></div>
+          <div class="cert-chip reveal">Digital Communication <span>— Infosys Springboard</span></div>
+          <div class="cert-chip reveal">Cloud Computing &amp; AWS Fundamentals <span>— Infosys Springboard</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section section--alt" id="contact">
+      <div class="section__inner">
+        <p class="section__eyebrow">06 · Contact</p>
+        <h2 class="section__title">Let's talk.</h2>
+        <p class="section__sub">Open to entry-level AI/Data roles, UI/UX positions, or anything in between.</p>
+
+        <div class="contact__info contact__info--full reveal">
+          <a href="mailto:preethi969875@gmail.com" class="contact__row">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+            preethi969875@gmail.com
+          </a>
+          <a href="tel:+917010697569" class="contact__row">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.12.9.34 1.79.65 2.65a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.43-1.43a2 2 0 012.11-.45c.86.31 1.75.53 2.65.65A2 2 0 0122 16.92z"/></svg>
+            +91 7010697569
+          </a>
+          <a href="https://linkedin.com/in/preethi-s-1266332a4/" target="_blank" rel="noopener noreferrer" class="contact__row">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 11.01-4.12 2.06 2.06 0 01-.01 4.12zM7.11 20.45H3.56V9h3.55v11.45z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/PreethiSeran" target="_blank" rel="noopener noreferrer" class="contact__row">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 007.86 10.94c.58.1.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.24 2.75.12 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.behance.net/preethi2004" target="_blank" rel="noopener noreferrer" class="contact__row">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 10.6c.7-.3 1.1-1 1.1-1.9 0-1.7-1.2-2.6-3.2-2.6H0v10.4h5.9c2.2 0 3.6-1 3.6-2.9 0-1.3-.6-2.2-1.7-3zm-5-2.8h2.6c1 0 1.6.4 1.6 1.2 0 .8-.6 1.3-1.6 1.3H2.8V7.8zm3 6.9H2.8v-2.9h3c1.1 0 1.8.5 1.8 1.4 0 1-.7 1.5-1.8 1.5zM24 12.2c0-2.9-1.8-5-4.7-5-2.9 0-4.9 2.1-4.9 5.1 0 3 2 5 5 5 1.9 0 3.5-.8 4.3-2.4l-2-1.1c-.4.8-1.2 1.3-2.2 1.3-1.3 0-2.2-.8-2.4-2.1h6.8c0-.3.1-.6.1-.8zm-6.9-1c.3-1.1 1.1-1.8 2.2-1.8s1.9.7 2 1.8h-4.2zM19.8 5h-6v1.5h6V5z"/></svg>
+            Behance
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Preethi S. Built with intent, not a template.</p>
+    <div class="footer__socials">
+      <a href="https://linkedin.com/in/preethi-s-1266332a4/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+      <a href="https://github.com/PreethiSeran" target="_blank" rel="noopener noreferrer" aria-label="GitHub">gh</a>
+      <a href="mailto:preethi969875@gmail.com" aria-label="Email">@</a>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
